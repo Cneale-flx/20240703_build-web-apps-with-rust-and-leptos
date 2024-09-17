@@ -5,7 +5,6 @@
 
 async fn main() -> std::io::Result<()> {
     use std::io;
-
     use actix_files::Files;
     use actix_web::*;
     use leptos::*;
